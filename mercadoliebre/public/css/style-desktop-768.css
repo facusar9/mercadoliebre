@@ -1,0 +1,59 @@
+@media (min-width: 768px) {
+  .wrapper {
+    width: 50%;
+  }
+  .main-header-top-bar {
+    display: flex;
+    justify-content: space-between;
+  }
+  .copy-header {
+    max-width: 250 px;
+    text-align: right;
+  }
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+  }
+  .navbar ul {
+    display: flex;
+  }
+  .navbar li {
+    margin: 0 10px;
+  }
+  .burger-menu {
+    display: none;
+  }
+  .product:hover .font-description {
+    display: block;
+  }
+  .product:hover {
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+  }
+  .product:hover .fa-truck {
+    transform: rotate(-90deg);
+  }
+
+  .product .fa-truck {
+    transition: transform 0.5s;
+  }
+  .main-header-top-bar {
+    flex-wrap: nowrap;
+  }
+  .w-50 {
+    max-width: 200px;
+  }
+
+  .footer-content {
+    display: flex;
+    align-items: center;
+  }
+  .fa-credit-card:hover {
+    color: #eac926;
+  }
+  .fa-gift:hover {
+    color: #eac926;
+  }
+  .fa-user-shield:hover {
+    color: #eac926;
+  }
+}
